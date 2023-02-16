@@ -1,0 +1,69 @@
+body{
+    background-color:rgb(204, 80, 204);
+}
+.container{
+    height: 550px;
+    width: 750px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    
+    
+    
+}
+.container .left{
+    height: 100%;
+    width: 45%; 
+    background-image: url(./joshua-fuller-ta7rN3NcWyM-unsplash.jpg) ;
+    background-attachment:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 0 0 10px ;
+}
+.right i{
+    position: fixed;
+    color: #db54a6;
+    padding-top: 60px;
+    left: 1080px;
+}
+.right input {
+    
+    border: none;
+    height: 30px;
+    width: 350px;
+    margin: 50px 0px 0px 30px;
+    background: transparent;
+    border-bottom: 1px solid gold;
+    color: #fff;
+}
+.right select{
+    border: none;
+    color: #fff;
+    background: transparent;
+    height: 30px;
+    width: 350px;
+    margin: 50px 0px 0px 30px;
+    border-bottom: 1px solid gold;
+}
+.right button{
+    margin: 40px 0 0 30px;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: greenyellow;
+    font-weight: 500;
+    font-size: 20px;
+}
+option{
+    background-color: black;
+    
+}
+input:focus,
+option:focus,
+select{
+    box-shadow: none;
+    outline: none;    
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0 ;
+    padding:0 ;
+    box-sizing: border-box;
+    border-color: #bf6385;
+}
+body{
+   background-image: url(./IMG/2048x1536\ Black\ Wood\ Wallpaper.jpg);
+   
+}
+.container{
+
+    height: 500px;
+    width: 800px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0,43%);
+    margin: 90px auto;
+    padding: 0 auto;
+    display: flex;
+    box-shadow: 0px -1px 12px 6px black;
+
+
+}
+.container .si{
+    margin-left: 10px;
+    
+}
+
+.p1{
+    height: 500px;
+    width: 400px;
+    margin: 20px 0 0 0 ;
+    
+}
+.p1 .sigma{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.p1 input{
+    padding: 5px 189px 0px 18px;
+    background-color: rgba(75, 64, 64,10%);
+    border: none;
+    border-bottom: 0.5px solid rgb(191, 99, 133);
+    font-size: 15px;
+    outline: none;
+    color: azure;
+    margin: 0px 0px 0px 5px;
+    
+}
+.p1 input::selection {
+    box-shadow: 0px 0px 0px 0px rgb(0, 255, 255) ;
+}
+.p1 label{
+    margin-left: 10px;
+}
+.p2{
+    background-image: url(./IMG/video-interview-770x516.jpg);
+    height: 500px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.container .p1 .sigma button{
+    margin: 0px 0px 0px 0px;
+    padding: 15px 173px;
+    background:rgb(0, 0, 0);
+    color: wheat;
+    justify-content: center;
+}
+.container .p1 .sigma button:hover{
+    transition: all 0.3s;
+    background: #bf6385;
+    cursor: pointer;
+}
+.sigma a{
+    text-align: center;
+    margin-left: 130px;
+    font-size:  15px;
+    text-decoration: none;
+    color: gray;
+}
+.container h1, a{
+    color: wheat;
+    text-decoration: none;
+}
+.container .si h1 span{
+    height: auto;
+    width: auto;
+    border-bottom:5px solid #bf6385;    
+}
+ .si a:hover
+ {
+    transition: all 0.3s;
+    height: auto;
+    width: auto;
+    border-bottom:5px solid #bf6385;
+}
+
+
+

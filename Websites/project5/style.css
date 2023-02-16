@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    letter-spacing: normal;
+    box-sizing: border-box;
+}
+.container{
+    height: 528px;
+    width:  750px;
+   
+    display: flex;
+    margin: 50px;
+    box-shadow: 1px 1px 5px  0.3vh;
+    box-shadow: #2370f4;
+    margin-left: 450px;
+}
+.container .left{
+    height: 528px;
+    width: 270px;
+    background-image: url(./login_img_c4a81e.png);
+    background-repeat: no-repeat;    
+    background-position: center 85%;
+    background-position-y:bottom ; 
+    box-sizing: border-box;
+    color: #fff; 
+    font-size: 15px;
+    background-color: #2370f4;
+    display: block;
+    
+}
+.left h1{
+    margin: 50px 0px 0px 50px;
+    
+    font-weight: 500;
+}
+.left p{
+    width: 155.82px;
+    height: 75.6px;
+    margin: 20px 0 0 50px;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: normal;
+}
+.container .right{
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.right input{
+    height: 50px;
+    width: 360px;
+    margin-left: -79px;
+    margin-top: 15px;
+    border-style: none none solid none;
+    transition: all .5s;
+    font-size: 15px;
+}
+.right label{
+    color: gray;
+    position: absolute;
+    left: 750px;
+    padding-top: 31px;
+    font-size: 15px;
+    transform-origin: 0 0;
+    translate: all 0.3s;
+    transition: 0.3s;
+}
+
+.right input::placeholder{
+    color: transparent;
+}
+.right input:focus{
+    box-shadow: none;
+    outline: none;
+    border-color:orange;
+   
+}
+.right input:focus ~ label,
+.right input:valid ~ label
+{
+    transform: translateY(-1.5em) scale(0.8) ;
+    color: black;    
+    
+}
+.right input:focus-within{
+    transform: scale(1.05, 1.05) scale(1);
+}
+.pass a{
+    position: absolute;
+    left: 1050px;
+    top: 200px;
+    color: #2370f4;
+    text-decoration: none ;
+}
+.right button{
+    height: 41px;
+    width: 370px;
+    margin-top: 50px;
+    margin-left: -84px;
+    background: #FB641B;
+    border: none;
+    color: #fff;
+    letter-spacing: normal;
+    font-size: 2vh;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.right .otp span p{
+    margin: 30px 0px -20px 90px
+}
+.right .a{
+    margin-top: 102px;
+    text-decoration: none;
+}
+.right .a a{
+    text-decoration: none;
+    color: blue;
+}
+.otp button{
+    background: #fff;
+    color: #2370f4;
+    box-shadow: 4px 7px 11px 0px gray;
+}
